@@ -6,7 +6,7 @@
 
 # Class: ApplicationsResource
 
-Defined in: src/admin/applications.ts:28
+Defined in: [src/admin/applications.ts:37](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L37)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: src/admin/applications.ts:28
 
 > **new ApplicationsResource**(`client`, `tenantId`): `ApplicationsResource`
 
-Defined in: src/admin/applications.ts:29
+Defined in: [src/admin/applications.ts:38](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L38)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: src/admin/applications.ts:29
 
 > **create**(`data`): `Promise`\<`Client` & `object`\>
 
-Defined in: src/admin/applications.ts:48
+Defined in: [src/admin/applications.ts:57](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L57)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: src/admin/applications.ts:48
 
 > **delete**(`clientId`): `Promise`\<`void`\>
 
-Defined in: src/admin/applications.ts:78
+Defined in: [src/admin/applications.ts:105](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L105)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: src/admin/applications.ts:78
 
 > **get**(`clientId`): `Promise`\<`Client`\>
 
-Defined in: src/admin/applications.ts:43
+Defined in: [src/admin/applications.ts:52](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L52)
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: src/admin/applications.ts:43
 
 > **list**(): `Promise`\<`Client`[]\>
 
-Defined in: src/admin/applications.ts:38
+Defined in: [src/admin/applications.ts:47](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L47)
 
 #### Returns
 
@@ -102,7 +102,7 @@ Defined in: src/admin/applications.ts:38
 
 > **rotateSecret**(`clientId`): `Promise`\<\{ `clientId`: `string`; `clientSecret`: `string`; \}\>
 
-Defined in: src/admin/applications.ts:82
+Defined in: [src/admin/applications.ts:109](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L109)
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: src/admin/applications.ts:82
 
 > **update**(`clientId`, `data`): `Promise`\<`Client`\>
 
-Defined in: src/admin/applications.ts:65
+Defined in: [src/admin/applications.ts:83](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L83)
 
 #### Parameters
 

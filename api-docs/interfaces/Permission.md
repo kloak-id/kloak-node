@@ -6,7 +6,7 @@
 
 # Interface: Permission
 
-Defined in: src/types/index.ts:62
+Defined in: [src/types/index.ts:62](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L62)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/index.ts:62
 
 > **action**: `string`
 
-Defined in: src/types/index.ts:67
+Defined in: [src/types/index.ts:67](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L67)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/index.ts:67
 
 > **createdAt**: `string`
 
-Defined in: src/types/index.ts:70
+Defined in: [src/types/index.ts:70](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L70)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/index.ts:70
 
 > `optional` **description?**: `string`
 
-Defined in: src/types/index.ts:68
+Defined in: [src/types/index.ts:68](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L68)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/index.ts:68
 
 > **id**: `string`
 
-Defined in: src/types/index.ts:63
+Defined in: [src/types/index.ts:63](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L63)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/index.ts:63
 
 > **name**: `string`
 
-Defined in: src/types/index.ts:65
+Defined in: [src/types/index.ts:65](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L65)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/index.ts:65
 
 > **resource**: `string`
 
-Defined in: src/types/index.ts:66
+Defined in: [src/types/index.ts:66](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L66)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: src/types/index.ts:66
 
 > **tenantId**: `string`
 
-Defined in: src/types/index.ts:64
+Defined in: [src/types/index.ts:64](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L64)
 
 ***
 
@@ -70,4 +70,4 @@ Defined in: src/types/index.ts:64
 
 > `optional` **type?**: `string`
 
-Defined in: src/types/index.ts:69
+Defined in: [src/types/index.ts:69](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L69)

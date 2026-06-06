@@ -114,6 +114,15 @@ export interface Client {
   accessTokenType: 'JWT' | 'opaque';
   tokenEndpointAuthMethod: string;
   isActive: boolean;
+  authorizationServicesEnabled?: boolean;
+  pkceMethod?: string;
+  requireDpop?: boolean;
+  jwksUri?: string;
+  loginTheme?: string;
+  frontchannelLogoutUri?: string;
+  frontchannelLogoutSessionRequired?: boolean;
+  backchannelLogoutUri?: string;
+  backchannelLogoutSessionRequired?: boolean;
   createdAt: string;
   updatedAt: string;
 }
@@ -129,6 +138,15 @@ export interface CreateClientRequest {
   allowedOrigins?: string[];
   accessTokenType?: 'JWT' | 'opaque';
   tokenEndpointAuthMethod?: string;
+  authorizationServicesEnabled?: boolean;
+  pkceMethod?: string;
+  requireDpop?: boolean;
+  jwksUri?: string;
+  loginTheme?: string;
+  frontchannelLogoutUri?: string;
+  frontchannelLogoutSessionRequired?: boolean;
+  backchannelLogoutUri?: string;
+  backchannelLogoutSessionRequired?: boolean;
 }
 
 export interface UpdateClientRequest {
@@ -138,6 +156,15 @@ export interface UpdateClientRequest {
   scopes?: string[];
   allowedOrigins?: string[];
   isActive?: boolean;
+  authorizationServicesEnabled?: boolean;
+  pkceMethod?: string;
+  requireDpop?: boolean;
+  jwksUri?: string;
+  loginTheme?: string;
+  frontchannelLogoutUri?: string;
+  frontchannelLogoutSessionRequired?: boolean;
+  backchannelLogoutUri?: string;
+  backchannelLogoutSessionRequired?: boolean;
 }
 export interface AuditLog {
   id: string;

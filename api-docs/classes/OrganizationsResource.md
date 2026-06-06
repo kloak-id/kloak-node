@@ -6,7 +6,7 @@
 
 # Class: OrganizationsResource
 
-Defined in: src/admin/organizations.ts:20
+Defined in: [src/admin/organizations.ts:20](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/organizations.ts#L20)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: src/admin/organizations.ts:20
 
 > **new OrganizationsResource**(`client`, `tenantId`): `OrganizationsResource`
 
-Defined in: src/admin/organizations.ts:21
+Defined in: [src/admin/organizations.ts:21](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/organizations.ts#L21)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: src/admin/organizations.ts:21
 
 > **create**(`data`): `Promise`\<`Organization`\>
 
-Defined in: src/admin/organizations.ts:40
+Defined in: [src/admin/organizations.ts:40](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/organizations.ts#L40)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: src/admin/organizations.ts:40
 
 > **delete**(`orgId`): `Promise`\<`void`\>
 
-Defined in: src/admin/organizations.ts:64
+Defined in: [src/admin/organizations.ts:64](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/organizations.ts#L64)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: src/admin/organizations.ts:64
 
 > **get**(`orgId`): `Promise`\<`Organization`\>
 
-Defined in: src/admin/organizations.ts:35
+Defined in: [src/admin/organizations.ts:35](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/organizations.ts#L35)
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: src/admin/organizations.ts:35
 
 > **list**(): `Promise`\<`Organization`[]\>
 
-Defined in: src/admin/organizations.ts:30
+Defined in: [src/admin/organizations.ts:30](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/organizations.ts#L30)
 
 #### Returns
 
@@ -102,7 +102,7 @@ Defined in: src/admin/organizations.ts:30
 
 > **update**(`orgId`, `data`): `Promise`\<`Organization`\>
 
-Defined in: src/admin/organizations.ts:52
+Defined in: [src/admin/organizations.ts:52](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/organizations.ts#L52)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: Session
 
-Defined in: src/types/index.ts:43
+Defined in: [src/types/index.ts:43](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L43)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/index.ts:43
 
 > **createdAt**: `string`
 
-Defined in: src/types/index.ts:51
+Defined in: [src/types/index.ts:51](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L51)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/index.ts:51
 
 > **expiresAt**: `string`
 
-Defined in: src/types/index.ts:50
+Defined in: [src/types/index.ts:50](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L50)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/index.ts:50
 
 > **id**: `string`
 
-Defined in: src/types/index.ts:44
+Defined in: [src/types/index.ts:44](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L44)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/index.ts:44
 
 > `optional` **ip?**: `string`
 
-Defined in: src/types/index.ts:47
+Defined in: [src/types/index.ts:47](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L47)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/index.ts:47
 
 > **isActive**: `boolean`
 
-Defined in: src/types/index.ts:49
+Defined in: [src/types/index.ts:49](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L49)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/index.ts:49
 
 > **tenantId**: `string`
 
-Defined in: src/types/index.ts:45
+Defined in: [src/types/index.ts:45](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L45)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: src/types/index.ts:45
 
 > `optional` **userAgent?**: `string`
 
-Defined in: src/types/index.ts:48
+Defined in: [src/types/index.ts:48](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L48)
 
 ***
 
@@ -70,4 +70,4 @@ Defined in: src/types/index.ts:48
 
 > **userId**: `string`
 
-Defined in: src/types/index.ts:46
+Defined in: [src/types/index.ts:46](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L46)

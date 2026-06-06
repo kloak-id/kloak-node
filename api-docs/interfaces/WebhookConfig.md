@@ -6,7 +6,7 @@
 
 # Interface: WebhookConfig
 
-Defined in: src/types/index.ts:91
+Defined in: [src/types/index.ts:91](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L91)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/index.ts:91
 
 > **createdAt**: `string`
 
-Defined in: src/types/index.ts:97
+Defined in: [src/types/index.ts:97](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L97)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/index.ts:97
 
 > **enabled**: `boolean`
 
-Defined in: src/types/index.ts:96
+Defined in: [src/types/index.ts:96](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L96)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/index.ts:96
 
 > **events**: `string`[]
 
-Defined in: src/types/index.ts:95
+Defined in: [src/types/index.ts:95](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L95)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/index.ts:95
 
 > **id**: `string`
 
-Defined in: src/types/index.ts:92
+Defined in: [src/types/index.ts:92](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L92)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/index.ts:92
 
 > **tenantId**: `string`
 
-Defined in: src/types/index.ts:93
+Defined in: [src/types/index.ts:93](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L93)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: src/types/index.ts:93
 
 > **url**: `string`
 
-Defined in: src/types/index.ts:94
+Defined in: [src/types/index.ts:94](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L94)

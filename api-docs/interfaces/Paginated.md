@@ -6,7 +6,7 @@
 
 # Interface: Paginated\<T\>
 
-Defined in: src/types/index.ts:153
+Defined in: [src/types/index.ts:180](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L180)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: src/types/index.ts:153
 
 > **data**: `T`[]
 
-Defined in: src/types/index.ts:154
+Defined in: [src/types/index.ts:181](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L181)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: src/types/index.ts:154
 
 > **page**: `number`
 
-Defined in: src/types/index.ts:156
+Defined in: [src/types/index.ts:183](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L183)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: src/types/index.ts:156
 
 > **pageSize**: `number`
 
-Defined in: src/types/index.ts:157
+Defined in: [src/types/index.ts:184](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L184)
 
 ***
 
@@ -44,4 +44,4 @@ Defined in: src/types/index.ts:157
 
 > **total**: `number`
 
-Defined in: src/types/index.ts:155
+Defined in: [src/types/index.ts:182](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L182)

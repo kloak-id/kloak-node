@@ -6,7 +6,7 @@
 
 # Interface: TokenClaims
 
-Defined in: src/types/index.ts:160
+Defined in: [src/types/index.ts:187](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L187)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/index.ts:160
 
 > `optional` **aud?**: `string` \| `string`[]
 
-Defined in: src/types/index.ts:167
+Defined in: [src/types/index.ts:194](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L194)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/index.ts:167
 
 > `optional` **email?**: `string`
 
-Defined in: src/types/index.ts:163
+Defined in: [src/types/index.ts:190](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L190)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/index.ts:163
 
 > **exp**: `number`
 
-Defined in: src/types/index.ts:168
+Defined in: [src/types/index.ts:195](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L195)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/index.ts:168
 
 > **iat**: `number`
 
-Defined in: src/types/index.ts:169
+Defined in: [src/types/index.ts:196](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L196)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/index.ts:169
 
 > **iss**: `string`
 
-Defined in: src/types/index.ts:166
+Defined in: [src/types/index.ts:193](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L193)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/index.ts:166
 
 > `optional` **role?**: `string`
 
-Defined in: src/types/index.ts:164
+Defined in: [src/types/index.ts:191](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L191)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: src/types/index.ts:164
 
 > `optional` **sessionId?**: `string`
 
-Defined in: src/types/index.ts:165
+Defined in: [src/types/index.ts:192](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L192)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: src/types/index.ts:165
 
 > **sub**: `string`
 
-Defined in: src/types/index.ts:161
+Defined in: [src/types/index.ts:188](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L188)
 
 ***
 
@@ -78,4 +78,4 @@ Defined in: src/types/index.ts:161
 
 > **tenantId**: `string`
 
-Defined in: src/types/index.ts:162
+Defined in: [src/types/index.ts:189](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L189)
