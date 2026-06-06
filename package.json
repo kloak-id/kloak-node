@@ -1,0 +1,38 @@
+{
+  "name": "@kloak.id/node",
+  "version": "0.1.0",
+  "description": "Kloak.id backend SDK for Node.js — admin API client, JWT verification, and session management",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "dev": "tsc --project tsconfig.json --watch",
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "test": "node --experimental-vm-modules $(which jest) --passWithNoTests",
+    "clean": "rm -rf dist *.tsbuildinfo",
+    "docs": "typedoc --plugin typedoc-plugin-markdown --out api-docs src/index.ts"
+  },
+  "keywords": [
+    "kloak",
+    "auth",
+    "authentication",
+    "node",
+    "sdk"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "*",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typedoc": "^0.28.19",
+    "typedoc-plugin-markdown": "^4.12.0",
+    "typescript": "*"
+  }
+}
