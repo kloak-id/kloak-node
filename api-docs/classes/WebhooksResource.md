@@ -6,7 +6,7 @@
 
 # Class: WebhooksResource
 
-Defined in: [src/admin/webhooks.ts:17](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/webhooks.ts#L17)
+Defined in: [src/admin/webhooks.ts:17](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/webhooks.ts#L17)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/admin/webhooks.ts:17](https://github.com/kloak-id/kloak-node/bl
 
 > **new WebhooksResource**(`client`, `tenantId`): `WebhooksResource`
 
-Defined in: [src/admin/webhooks.ts:18](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/webhooks.ts#L18)
+Defined in: [src/admin/webhooks.ts:18](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/webhooks.ts#L18)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [src/admin/webhooks.ts:18](https://github.com/kloak-id/kloak-node/bl
 
 > **create**(`data`): `Promise`\<[`WebhookConfig`](../interfaces/WebhookConfig.md)\>
 
-Defined in: [src/admin/webhooks.ts:27](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/webhooks.ts#L27)
+Defined in: [src/admin/webhooks.ts:27](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/webhooks.ts#L27)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [src/admin/webhooks.ts:27](https://github.com/kloak-id/kloak-node/bl
 
 > **delete**(`webhookId`): `Promise`\<`void`\>
 
-Defined in: [src/admin/webhooks.ts:52](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/webhooks.ts#L52)
+Defined in: [src/admin/webhooks.ts:52](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/webhooks.ts#L52)
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: [src/admin/webhooks.ts:52](https://github.com/kloak-id/kloak-node/bl
 
 > **get**(`webhookId`): `Promise`\<[`WebhookConfig`](../interfaces/WebhookConfig.md)\>
 
-Defined in: [src/admin/webhooks.ts:41](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/webhooks.ts#L41)
+Defined in: [src/admin/webhooks.ts:41](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/webhooks.ts#L41)
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: [src/admin/webhooks.ts:41](https://github.com/kloak-id/kloak-node/bl
 
 > **list**(): `Promise`\<[`WebhookConfig`](../interfaces/WebhookConfig.md)[]\>
 
-Defined in: [src/admin/webhooks.ts:36](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/webhooks.ts#L36)
+Defined in: [src/admin/webhooks.ts:36](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/webhooks.ts#L36)
 
 #### Returns
 
@@ -116,7 +116,7 @@ Defined in: [src/admin/webhooks.ts:36](https://github.com/kloak-id/kloak-node/bl
 
 > **update**(`webhookId`, `data`): `Promise`\<[`WebhookConfig`](../interfaces/WebhookConfig.md)\>
 
-Defined in: [src/admin/webhooks.ts:45](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/webhooks.ts#L45)
+Defined in: [src/admin/webhooks.ts:45](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/webhooks.ts#L45)
 
 #### Parameters
 

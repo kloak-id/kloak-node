@@ -6,7 +6,7 @@
 
 # Class: TenantsResource
 
-Defined in: [src/admin/tenants.ts:43](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/tenants.ts#L43)
+Defined in: [src/admin/tenants.ts:43](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/tenants.ts#L43)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/admin/tenants.ts:43](https://github.com/kloak-id/kloak-node/blo
 
 > **new TenantsResource**(`client`): `TenantsResource`
 
-Defined in: [src/admin/tenants.ts:44](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/tenants.ts#L44)
+Defined in: [src/admin/tenants.ts:44](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/tenants.ts#L44)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [src/admin/tenants.ts:44](https://github.com/kloak-id/kloak-node/blo
 
 > **delete**(`tenantId`): `Promise`\<`void`\>
 
-Defined in: [src/admin/tenants.ts:78](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/tenants.ts#L78)
+Defined in: [src/admin/tenants.ts:78](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/tenants.ts#L78)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/admin/tenants.ts:78](https://github.com/kloak-id/kloak-node/blo
 
 > **get**(`tenantId`): `Promise`\<[`Tenant`](../interfaces/Tenant.md)\>
 
-Defined in: [src/admin/tenants.ts:58](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/tenants.ts#L58)
+Defined in: [src/admin/tenants.ts:58](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/tenants.ts#L58)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [src/admin/tenants.ts:58](https://github.com/kloak-id/kloak-node/blo
 
 > **getByDomain**(`domain`): `Promise`\<[`Tenant`](../interfaces/Tenant.md)\>
 
-Defined in: [src/admin/tenants.ts:66](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/tenants.ts#L66)
+Defined in: [src/admin/tenants.ts:66](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/tenants.ts#L66)
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: [src/admin/tenants.ts:66](https://github.com/kloak-id/kloak-node/blo
 
 > **getBySlug**(`slug`): `Promise`\<[`Tenant`](../interfaces/Tenant.md)\>
 
-Defined in: [src/admin/tenants.ts:62](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/tenants.ts#L62)
+Defined in: [src/admin/tenants.ts:62](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/tenants.ts#L62)
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: [src/admin/tenants.ts:62](https://github.com/kloak-id/kloak-node/blo
 
 > **list**(`opts?`): `Promise`\<[`Paginated`](../interfaces/Paginated.md)\<[`Tenant`](../interfaces/Tenant.md)\>\>
 
-Defined in: [src/admin/tenants.ts:46](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/tenants.ts#L46)
+Defined in: [src/admin/tenants.ts:46](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/tenants.ts#L46)
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: [src/admin/tenants.ts:46](https://github.com/kloak-id/kloak-node/blo
 
 > **setStatus**(`tenantId`, `status`): `Promise`\<\{ `status`: `string`; \}\>
 
-Defined in: [src/admin/tenants.ts:74](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/tenants.ts#L74)
+Defined in: [src/admin/tenants.ts:74](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/tenants.ts#L74)
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: [src/admin/tenants.ts:74](https://github.com/kloak-id/kloak-node/blo
 
 > **stats**(): `Promise`\<\{ `byPlan`: `Record`\<`string`, `number`\>; `total`: `number`; \}\>
 
-Defined in: [src/admin/tenants.ts:82](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/tenants.ts#L82)
+Defined in: [src/admin/tenants.ts:82](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/tenants.ts#L82)
 
 #### Returns
 
@@ -156,7 +156,7 @@ Defined in: [src/admin/tenants.ts:82](https://github.com/kloak-id/kloak-node/blo
 
 > **update**(`tenantId`, `data`): `Promise`\<[`Tenant`](../interfaces/Tenant.md)\>
 
-Defined in: [src/admin/tenants.ts:70](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/tenants.ts#L70)
+Defined in: [src/admin/tenants.ts:70](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/tenants.ts#L70)
 
 #### Parameters
 

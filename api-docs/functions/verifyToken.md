@@ -8,7 +8,7 @@
 
 > **verifyToken**(`token`, `jwksUrl`): `Promise`\<[`TokenClaims`](../interfaces/TokenClaims.md)\>
 
-Defined in: [src/auth/verify.ts:62](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/auth/verify.ts#L62)
+Defined in: [src/auth/verify.ts:62](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/auth/verify.ts#L62)
 
 ## Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: ApplicationsResource
 
-Defined in: [src/admin/applications.ts:37](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L37)
+Defined in: [src/admin/applications.ts:42](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/applications.ts#L42)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/admin/applications.ts:37](https://github.com/kloak-id/kloak-nod
 
 > **new ApplicationsResource**(`client`, `tenantId`): `ApplicationsResource`
 
-Defined in: [src/admin/applications.ts:38](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L38)
+Defined in: [src/admin/applications.ts:43](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/applications.ts#L43)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [src/admin/applications.ts:38](https://github.com/kloak-id/kloak-nod
 
 > **create**(`data`): `Promise`\<`Client` & `object`\>
 
-Defined in: [src/admin/applications.ts:57](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L57)
+Defined in: [src/admin/applications.ts:62](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/applications.ts#L62)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [src/admin/applications.ts:57](https://github.com/kloak-id/kloak-nod
 
 > **delete**(`clientId`): `Promise`\<`void`\>
 
-Defined in: [src/admin/applications.ts:105](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L105)
+Defined in: [src/admin/applications.ts:120](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/applications.ts#L120)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [src/admin/applications.ts:105](https://github.com/kloak-id/kloak-no
 
 > **get**(`clientId`): `Promise`\<`Client`\>
 
-Defined in: [src/admin/applications.ts:52](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L52)
+Defined in: [src/admin/applications.ts:57](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/applications.ts#L57)
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: [src/admin/applications.ts:52](https://github.com/kloak-id/kloak-nod
 
 > **list**(): `Promise`\<`Client`[]\>
 
-Defined in: [src/admin/applications.ts:47](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L47)
+Defined in: [src/admin/applications.ts:52](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/applications.ts#L52)
 
 #### Returns
 
@@ -102,7 +102,7 @@ Defined in: [src/admin/applications.ts:47](https://github.com/kloak-id/kloak-nod
 
 > **rotateSecret**(`clientId`): `Promise`\<\{ `clientId`: `string`; `clientSecret`: `string`; \}\>
 
-Defined in: [src/admin/applications.ts:109](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L109)
+Defined in: [src/admin/applications.ts:124](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/applications.ts#L124)
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: [src/admin/applications.ts:109](https://github.com/kloak-id/kloak-no
 
 > **update**(`clientId`, `data`): `Promise`\<`Client`\>
 
-Defined in: [src/admin/applications.ts:83](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/applications.ts#L83)
+Defined in: [src/admin/applications.ts:93](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/applications.ts#L93)
 
 #### Parameters
 

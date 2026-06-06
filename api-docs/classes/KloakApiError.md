@@ -6,7 +6,7 @@
 
 # Class: KloakApiError
 
-Defined in: [src/admin/client.ts:3](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/client.ts#L3)
+Defined in: [src/admin/client.ts:3](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/client.ts#L3)
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: [src/admin/client.ts:3](https://github.com/kloak-id/kloak-node/blob/
 
 > **new KloakApiError**(`code`, `message`, `status`): `KloakApiError`
 
-Defined in: [src/admin/client.ts:7](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/client.ts#L7)
+Defined in: [src/admin/client.ts:7](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/client.ts#L7)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > **code**: `string`
 
-Defined in: [src/admin/client.ts:4](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/client.ts#L4)
+Defined in: [src/admin/client.ts:4](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/client.ts#L4)
 
 #### Implementation of
 
@@ -128,7 +128,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > **status**: `number`
 
-Defined in: [src/admin/client.ts:5](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/client.ts#L5)
+Defined in: [src/admin/client.ts:5](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/client.ts#L5)
 
 #### Implementation of
 

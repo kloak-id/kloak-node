@@ -8,7 +8,7 @@
 
 > **verifyWebhookSignature**(`payload`, `signature`, `secret`): `boolean`
 
-Defined in: [src/webhooks/verify.ts:10](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/webhooks/verify.ts#L10)
+Defined in: [src/webhooks/verify.ts:10](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/webhooks/verify.ts#L10)
 
 Verifies the HMAC-SHA256 signature on an incoming Kloak.id webhook request.
 

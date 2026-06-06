@@ -123,6 +123,11 @@ export interface Client {
   frontchannelLogoutSessionRequired?: boolean;
   backchannelLogoutUri?: string;
   backchannelLogoutSessionRequired?: boolean;
+  logoUri?: string;
+  clientUri?: string;
+  policyUri?: string;
+  tosUri?: string;
+  skipConsent?: boolean;
   createdAt: string;
   updatedAt: string;
 }
@@ -147,6 +152,11 @@ export interface CreateClientRequest {
   frontchannelLogoutSessionRequired?: boolean;
   backchannelLogoutUri?: string;
   backchannelLogoutSessionRequired?: boolean;
+  logoUri?: string;
+  clientUri?: string;
+  policyUri?: string;
+  tosUri?: string;
+  skipConsent?: boolean;
 }
 
 export interface UpdateClientRequest {
@@ -165,6 +175,11 @@ export interface UpdateClientRequest {
   frontchannelLogoutSessionRequired?: boolean;
   backchannelLogoutUri?: string;
   backchannelLogoutSessionRequired?: boolean;
+  logoUri?: string;
+  clientUri?: string;
+  policyUri?: string;
+  tosUri?: string;
+  skipConsent?: boolean;
 }
 export interface AuditLog {
   id: string;

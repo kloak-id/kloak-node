@@ -6,7 +6,7 @@
 
 # Interface: KloakError
 
-Defined in: [src/types/index.ts:227](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L227)
+Defined in: [src/types/index.ts:242](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L242)
 
 ## Extends
 
@@ -30,7 +30,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > **code**: `string`
 
-Defined in: [src/types/index.ts:228](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L228)
+Defined in: [src/types/index.ts:243](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L243)
 
 ***
 
@@ -74,4 +74,4 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > **status**: `number`
 
-Defined in: [src/types/index.ts:229](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L229)
+Defined in: [src/types/index.ts:244](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L244)

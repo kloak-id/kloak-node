@@ -6,7 +6,7 @@
 
 # Class: SessionsResource
 
-Defined in: [src/admin/sessions.ts:22](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/sessions.ts#L22)
+Defined in: [src/admin/sessions.ts:22](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/sessions.ts#L22)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/admin/sessions.ts:22](https://github.com/kloak-id/kloak-node/bl
 
 > **new SessionsResource**(`client`, `tenantId`): `SessionsResource`
 
-Defined in: [src/admin/sessions.ts:23](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/sessions.ts#L23)
+Defined in: [src/admin/sessions.ts:23](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/sessions.ts#L23)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [src/admin/sessions.ts:23](https://github.com/kloak-id/kloak-node/bl
 
 > **list**(`userId`): `Promise`\<[`Session`](../interfaces/Session.md)[]\>
 
-Defined in: [src/admin/sessions.ts:32](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/sessions.ts#L32)
+Defined in: [src/admin/sessions.ts:32](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/sessions.ts#L32)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [src/admin/sessions.ts:32](https://github.com/kloak-id/kloak-node/bl
 
 > **revoke**(`sessionId`): `Promise`\<\{ `status`: `string`; \}\>
 
-Defined in: [src/admin/sessions.ts:37](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/sessions.ts#L37)
+Defined in: [src/admin/sessions.ts:37](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/sessions.ts#L37)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [src/admin/sessions.ts:37](https://github.com/kloak-id/kloak-node/bl
 
 > **revokeAll**(`userId`): `Promise`\<\{ `revoked`: `number`; `status`: `string`; \}\>
 
-Defined in: [src/admin/sessions.ts:41](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/sessions.ts#L41)
+Defined in: [src/admin/sessions.ts:41](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/sessions.ts#L41)
 
 #### Parameters
 

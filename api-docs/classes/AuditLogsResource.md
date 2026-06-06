@@ -6,7 +6,7 @@
 
 # Class: AuditLogsResource
 
-Defined in: [src/admin/auditLogs.ts:19](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/auditLogs.ts#L19)
+Defined in: [src/admin/auditLogs.ts:19](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/auditLogs.ts#L19)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/admin/auditLogs.ts:19](https://github.com/kloak-id/kloak-node/b
 
 > **new AuditLogsResource**(`client`, `tenantId`): `AuditLogsResource`
 
-Defined in: [src/admin/auditLogs.ts:20](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/auditLogs.ts#L20)
+Defined in: [src/admin/auditLogs.ts:20](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/auditLogs.ts#L20)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [src/admin/auditLogs.ts:20](https://github.com/kloak-id/kloak-node/b
 
 > **list**(`options?`): `Promise`\<[`Paginated`](../interfaces/Paginated.md)\<[`AuditLog`](../interfaces/AuditLog.md)\>\>
 
-Defined in: [src/admin/auditLogs.ts:29](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/auditLogs.ts#L29)
+Defined in: [src/admin/auditLogs.ts:29](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/auditLogs.ts#L29)
 
 #### Parameters
 

@@ -29,6 +29,11 @@ function mapClient(r: RawClient): Client {
     frontchannelLogoutSessionRequired: r.frontchannel_logout_session_required ?? r.frontchannelLogoutSessionRequired,
     backchannelLogoutUri: r.backchannel_logout_uri || r.backchannelLogoutUri,
     backchannelLogoutSessionRequired: r.backchannel_logout_session_required ?? r.backchannelLogoutSessionRequired,
+    logoUri: r.logo_uri || r.logoUri,
+    clientUri: r.client_uri || r.clientUri,
+    policyUri: r.policy_uri || r.policyUri,
+    tosUri: r.tos_uri || r.tosUri,
+    skipConsent: r.skip_consent ?? r.skipConsent,
     createdAt: r.created_at || r.createdAt,
     updatedAt: r.updated_at || r.updatedAt,
   };
@@ -75,6 +80,11 @@ export class ApplicationsResource {
       frontchannel_logout_session_required: data.frontchannelLogoutSessionRequired,
       backchannel_logout_uri: data.backchannelLogoutUri,
       backchannel_logout_session_required: data.backchannelLogoutSessionRequired,
+      logo_uri: data.logoUri,
+      client_uri: data.clientUri,
+      policy_uri: data.policyUri,
+      tos_uri: data.tosUri,
+      skip_consent: data.skipConsent,
     };
     const raw = await this.client.post<RawClient>(this.path(), body);
     return mapClient(raw) as Client & { clientSecret: string };
@@ -97,6 +107,11 @@ export class ApplicationsResource {
     if (data.frontchannelLogoutSessionRequired !== undefined) body.frontchannel_logout_session_required = data.frontchannelLogoutSessionRequired;
     if (data.backchannelLogoutUri !== undefined) body.backchannel_logout_uri = data.backchannelLogoutUri;
     if (data.backchannelLogoutSessionRequired !== undefined) body.backchannel_logout_session_required = data.backchannelLogoutSessionRequired;
+    if (data.logoUri !== undefined) body.logo_uri = data.logoUri;
+    if (data.clientUri !== undefined) body.client_uri = data.clientUri;
+    if (data.policyUri !== undefined) body.policy_uri = data.policyUri;
+    if (data.tosUri !== undefined) body.tos_uri = data.tosUri;
+    if (data.skipConsent !== undefined) body.skip_consent = data.skipConsent;
     
     const raw = await this.client.put<RawClient>(this.path(`/${clientId}`), body);
     return mapClient(raw);

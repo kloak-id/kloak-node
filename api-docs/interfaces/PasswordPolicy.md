@@ -6,7 +6,7 @@
 
 # Interface: PasswordPolicy
 
-Defined in: [src/types/index.ts:73](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L73)
+Defined in: [src/types/index.ts:73](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L73)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/index.ts:73](https://github.com/kloak-id/kloak-node/blob/
 
 > **duplicateCheck**: `boolean`
 
-Defined in: [src/types/index.ts:80](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L80)
+Defined in: [src/types/index.ts:80](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L80)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/index.ts:80](https://github.com/kloak-id/kloak-node/blob/
 
 > **expiryDays**: `number`
 
-Defined in: [src/types/index.ts:79](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L79)
+Defined in: [src/types/index.ts:79](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L79)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/types/index.ts:79](https://github.com/kloak-id/kloak-node/blob/
 
 > **minLength**: `number`
 
-Defined in: [src/types/index.ts:74](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L74)
+Defined in: [src/types/index.ts:74](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L74)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/types/index.ts:74](https://github.com/kloak-id/kloak-node/blob/
 
 > **requireLowercase**: `boolean`
 
-Defined in: [src/types/index.ts:76](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L76)
+Defined in: [src/types/index.ts:76](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L76)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/types/index.ts:76](https://github.com/kloak-id/kloak-node/blob/
 
 > **requireNumbers**: `boolean`
 
-Defined in: [src/types/index.ts:77](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L77)
+Defined in: [src/types/index.ts:77](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L77)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/types/index.ts:77](https://github.com/kloak-id/kloak-node/blob/
 
 > **requireSpecial**: `boolean`
 
-Defined in: [src/types/index.ts:78](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L78)
+Defined in: [src/types/index.ts:78](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L78)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [src/types/index.ts:78](https://github.com/kloak-id/kloak-node/blob/
 
 > **requireUppercase**: `boolean`
 
-Defined in: [src/types/index.ts:75](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L75)
+Defined in: [src/types/index.ts:75](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L75)

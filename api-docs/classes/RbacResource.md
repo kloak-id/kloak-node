@@ -6,7 +6,7 @@
 
 # Class: RbacResource
 
-Defined in: [src/admin/rbac.ts:35](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L35)
+Defined in: [src/admin/rbac.ts:35](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L35)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/admin/rbac.ts:35](https://github.com/kloak-id/kloak-node/blob/2
 
 > **new RbacResource**(`client`, `tenantId`): `RbacResource`
 
-Defined in: [src/admin/rbac.ts:36](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L36)
+Defined in: [src/admin/rbac.ts:36](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L36)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [src/admin/rbac.ts:36](https://github.com/kloak-id/kloak-node/blob/2
 
 > **addPermissionToRole**(`roleId`, `permissionId`): `Promise`\<\{ `status`: `string`; \}\>
 
-Defined in: [src/admin/rbac.ts:84](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L84)
+Defined in: [src/admin/rbac.ts:84](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L84)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [src/admin/rbac.ts:84](https://github.com/kloak-id/kloak-node/blob/2
 
 > **assignRole**(`userId`, `roleId`, `assignedBy?`): `Promise`\<\{ `status`: `string`; \}\>
 
-Defined in: [src/admin/rbac.ts:94](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L94)
+Defined in: [src/admin/rbac.ts:94](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L94)
 
 #### Parameters
 
@@ -84,7 +84,7 @@ Defined in: [src/admin/rbac.ts:94](https://github.com/kloak-id/kloak-node/blob/2
 
 > **createPermission**(`data`): `Promise`\<[`Permission`](../interfaces/Permission.md)\>
 
-Defined in: [src/admin/rbac.ts:68](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L68)
+Defined in: [src/admin/rbac.ts:68](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L68)
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: [src/admin/rbac.ts:68](https://github.com/kloak-id/kloak-node/blob/2
 
 > **createRole**(`data`): `Promise`\<[`Role`](../interfaces/Role.md)\>
 
-Defined in: [src/admin/rbac.ts:50](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L50)
+Defined in: [src/admin/rbac.ts:50](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L50)
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: [src/admin/rbac.ts:50](https://github.com/kloak-id/kloak-node/blob/2
 
 > **deleteRole**(`roleId`): `Promise`\<`void`\>
 
-Defined in: [src/admin/rbac.ts:63](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L63)
+Defined in: [src/admin/rbac.ts:63](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L63)
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: [src/admin/rbac.ts:63](https://github.com/kloak-id/kloak-node/blob/2
 
 > **getRole**(`roleId`): `Promise`\<[`Role`](../interfaces/Role.md)\>
 
-Defined in: [src/admin/rbac.ts:59](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L59)
+Defined in: [src/admin/rbac.ts:59](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L59)
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: [src/admin/rbac.ts:59](https://github.com/kloak-id/kloak-node/blob/2
 
 > **listPermissions**(): `Promise`\<[`Permission`](../interfaces/Permission.md)[]\>
 
-Defined in: [src/admin/rbac.ts:78](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L78)
+Defined in: [src/admin/rbac.ts:78](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L78)
 
 #### Returns
 
@@ -192,7 +192,7 @@ Defined in: [src/admin/rbac.ts:78](https://github.com/kloak-id/kloak-node/blob/2
 
 > **listRolePermissions**(`roleId`): `Promise`\<[`Permission`](../interfaces/Permission.md)[]\>
 
-Defined in: [src/admin/rbac.ts:88](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L88)
+Defined in: [src/admin/rbac.ts:88](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L88)
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: [src/admin/rbac.ts:88](https://github.com/kloak-id/kloak-node/blob/2
 
 > **listRoles**(): `Promise`\<[`Role`](../interfaces/Role.md)[]\>
 
-Defined in: [src/admin/rbac.ts:54](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L54)
+Defined in: [src/admin/rbac.ts:54](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L54)
 
 #### Returns
 
@@ -222,7 +222,7 @@ Defined in: [src/admin/rbac.ts:54](https://github.com/kloak-id/kloak-node/blob/2
 
 > **listUserRoles**(`userId`): `Promise`\<[`Role`](../interfaces/Role.md)[]\>
 
-Defined in: [src/admin/rbac.ts:101](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L101)
+Defined in: [src/admin/rbac.ts:101](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L101)
 
 #### Parameters
 
@@ -240,7 +240,7 @@ Defined in: [src/admin/rbac.ts:101](https://github.com/kloak-id/kloak-node/blob/
 
 > **removeUserRole**(`userId`, `roleId`): `Promise`\<`void`\>
 
-Defined in: [src/admin/rbac.ts:106](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/rbac.ts#L106)
+Defined in: [src/admin/rbac.ts:106](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/rbac.ts#L106)
 
 #### Parameters
 

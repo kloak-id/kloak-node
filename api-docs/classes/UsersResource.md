@@ -6,7 +6,7 @@
 
 # Class: UsersResource
 
-Defined in: [src/admin/users.ts:51](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/users.ts#L51)
+Defined in: [src/admin/users.ts:51](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/users.ts#L51)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/admin/users.ts:51](https://github.com/kloak-id/kloak-node/blob/
 
 > **new UsersResource**(`client`, `tenantId`): `UsersResource`
 
-Defined in: [src/admin/users.ts:52](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/users.ts#L52)
+Defined in: [src/admin/users.ts:52](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/users.ts#L52)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [src/admin/users.ts:52](https://github.com/kloak-id/kloak-node/blob/
 
 > **delete**(`userId`): `Promise`\<`void`\>
 
-Defined in: [src/admin/users.ts:86](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/users.ts#L86)
+Defined in: [src/admin/users.ts:86](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/users.ts#L86)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [src/admin/users.ts:86](https://github.com/kloak-id/kloak-node/blob/
 
 > **get**(`userId`): `Promise`\<[`User`](../interfaces/User.md)\>
 
-Defined in: [src/admin/users.ts:72](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/users.ts#L72)
+Defined in: [src/admin/users.ts:72](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/users.ts#L72)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [src/admin/users.ts:72](https://github.com/kloak-id/kloak-node/blob/
 
 > **list**(`opts?`): `Promise`\<[`Paginated`](../interfaces/Paginated.md)\<[`User`](../interfaces/User.md)\>\>
 
-Defined in: [src/admin/users.ts:61](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/users.ts#L61)
+Defined in: [src/admin/users.ts:61](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/users.ts#L61)
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: [src/admin/users.ts:61](https://github.com/kloak-id/kloak-node/blob/
 
 > **update**(`userId`, `data`): `Promise`\<[`User`](../interfaces/User.md)\>
 
-Defined in: [src/admin/users.ts:76](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/admin/users.ts#L76)
+Defined in: [src/admin/users.ts:76](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/admin/users.ts#L76)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: Role
 
-Defined in: [src/types/index.ts:54](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L54)
+Defined in: [src/types/index.ts:54](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L54)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/index.ts:54](https://github.com/kloak-id/kloak-node/blob/
 
 > **createdAt**: `string`
 
-Defined in: [src/types/index.ts:59](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L59)
+Defined in: [src/types/index.ts:59](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L59)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/index.ts:59](https://github.com/kloak-id/kloak-node/blob/
 
 > `optional` **description?**: `string`
 
-Defined in: [src/types/index.ts:58](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L58)
+Defined in: [src/types/index.ts:58](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L58)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/types/index.ts:58](https://github.com/kloak-id/kloak-node/blob/
 
 > **id**: `string`
 
-Defined in: [src/types/index.ts:55](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L55)
+Defined in: [src/types/index.ts:55](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L55)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/types/index.ts:55](https://github.com/kloak-id/kloak-node/blob/
 
 > **name**: `string`
 
-Defined in: [src/types/index.ts:57](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L57)
+Defined in: [src/types/index.ts:57](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L57)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [src/types/index.ts:57](https://github.com/kloak-id/kloak-node/blob/
 
 > **tenantId**: `string`
 
-Defined in: [src/types/index.ts:56](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L56)
+Defined in: [src/types/index.ts:56](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L56)

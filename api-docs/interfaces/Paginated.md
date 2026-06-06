@@ -6,7 +6,7 @@
 
 # Interface: Paginated\<T\>
 
-Defined in: [src/types/index.ts:180](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L180)
+Defined in: [src/types/index.ts:195](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L195)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [src/types/index.ts:180](https://github.com/kloak-id/kloak-node/blob
 
 > **data**: `T`[]
 
-Defined in: [src/types/index.ts:181](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L181)
+Defined in: [src/types/index.ts:196](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L196)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/types/index.ts:181](https://github.com/kloak-id/kloak-node/blob
 
 > **page**: `number`
 
-Defined in: [src/types/index.ts:183](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L183)
+Defined in: [src/types/index.ts:198](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L198)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [src/types/index.ts:183](https://github.com/kloak-id/kloak-node/blob
 
 > **pageSize**: `number`
 
-Defined in: [src/types/index.ts:184](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L184)
+Defined in: [src/types/index.ts:199](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L199)
 
 ***
 
@@ -44,4 +44,4 @@ Defined in: [src/types/index.ts:184](https://github.com/kloak-id/kloak-node/blob
 
 > **total**: `number`
 
-Defined in: [src/types/index.ts:182](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L182)
+Defined in: [src/types/index.ts:197](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L197)

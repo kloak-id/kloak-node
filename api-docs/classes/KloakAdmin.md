@@ -6,7 +6,7 @@
 
 # Class: KloakAdmin
 
-Defined in: [src/index.ts:34](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/index.ts#L34)
+Defined in: [src/index.ts:34](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/index.ts#L34)
 
 Kloak.id Admin SDK client.
 
@@ -29,7 +29,7 @@ const users = await kloak.for('tenant-id').users.list();
 
 > **new KloakAdmin**(`config`): `KloakAdmin`
 
-Defined in: [src/index.ts:38](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/index.ts#L38)
+Defined in: [src/index.ts:38](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/index.ts#L38)
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: [src/index.ts:38](https://github.com/kloak-id/kloak-node/blob/272d68
 
 > `readonly` **tenants**: [`TenantsResource`](TenantsResource.md)
 
-Defined in: [src/index.ts:36](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/index.ts#L36)
+Defined in: [src/index.ts:36](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/index.ts#L36)
 
 ## Methods
 
@@ -55,7 +55,7 @@ Defined in: [src/index.ts:36](https://github.com/kloak-id/kloak-node/blob/272d68
 
 > **for**(`tenantId`): `object`
 
-Defined in: [src/index.ts:46](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/index.ts#L46)
+Defined in: [src/index.ts:46](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/index.ts#L46)
 
 Scope all subsequent calls to a specific tenant.
 

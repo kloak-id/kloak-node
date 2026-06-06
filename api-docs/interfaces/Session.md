@@ -6,7 +6,7 @@
 
 # Interface: Session
 
-Defined in: [src/types/index.ts:43](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L43)
+Defined in: [src/types/index.ts:43](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L43)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/index.ts:43](https://github.com/kloak-id/kloak-node/blob/
 
 > **createdAt**: `string`
 
-Defined in: [src/types/index.ts:51](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L51)
+Defined in: [src/types/index.ts:51](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L51)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/index.ts:51](https://github.com/kloak-id/kloak-node/blob/
 
 > **expiresAt**: `string`
 
-Defined in: [src/types/index.ts:50](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L50)
+Defined in: [src/types/index.ts:50](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L50)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/types/index.ts:50](https://github.com/kloak-id/kloak-node/blob/
 
 > **id**: `string`
 
-Defined in: [src/types/index.ts:44](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L44)
+Defined in: [src/types/index.ts:44](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L44)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/types/index.ts:44](https://github.com/kloak-id/kloak-node/blob/
 
 > `optional` **ip?**: `string`
 
-Defined in: [src/types/index.ts:47](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L47)
+Defined in: [src/types/index.ts:47](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L47)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/types/index.ts:47](https://github.com/kloak-id/kloak-node/blob/
 
 > **isActive**: `boolean`
 
-Defined in: [src/types/index.ts:49](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L49)
+Defined in: [src/types/index.ts:49](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L49)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/types/index.ts:49](https://github.com/kloak-id/kloak-node/blob/
 
 > **tenantId**: `string`
 
-Defined in: [src/types/index.ts:45](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L45)
+Defined in: [src/types/index.ts:45](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L45)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [src/types/index.ts:45](https://github.com/kloak-id/kloak-node/blob/
 
 > `optional` **userAgent?**: `string`
 
-Defined in: [src/types/index.ts:48](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L48)
+Defined in: [src/types/index.ts:48](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L48)
 
 ***
 
@@ -70,4 +70,4 @@ Defined in: [src/types/index.ts:48](https://github.com/kloak-id/kloak-node/blob/
 
 > **userId**: `string`
 
-Defined in: [src/types/index.ts:46](https://github.com/kloak-id/kloak-node/blob/272d68106c44ccf49dfd78e66b9d232f4e4daa7e/src/types/index.ts#L46)
+Defined in: [src/types/index.ts:46](https://github.com/kloak-id/kloak-node/blob/3a1e16a5b857352b2fbaa80c57eb68cc1d483774/src/types/index.ts#L46)
